@@ -1,0 +1,35 @@
+{
+  "name": "surveasy-workspace",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "firebase": "^9.1.0",
+    "lodash": "^4.17.21",
+    "mitt": "^3.0.0",
+    "vue": "^3.0.0",
+    "vue-awesome-swiper": "^5.0.1",
+    "vue-browser-detect-plugin": "^0.1.18",
+    "vue-carousel": "^0.18.0",
+    "vue-cookies": "^1.7.4",
+    "vue-glide-js": "^1.3.14",
+    "vue-gtag": "^1.16.1",
+    "vue-owl-carousel": "^2.0.3",
+    "vue-roller": "^1.12.5",
+    "vue-router": "^4.0.0-0",
+    "vueperslides": "^3.4.2",
+    "vuex": "^4.0.0-0",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0"
+  }
+}
