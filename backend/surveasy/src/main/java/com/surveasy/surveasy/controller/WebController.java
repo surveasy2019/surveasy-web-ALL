@@ -1,4 +1,4 @@
-package com.surveasy.surveasy;
+package com.surveasy.surveasy.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
