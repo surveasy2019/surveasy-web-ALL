@@ -1,3 +1,5 @@
+*.javascript linguist-detectable=false
+
 frontend/** linguist-documentation=false
 frontend/** linguist-vendored=false
 
