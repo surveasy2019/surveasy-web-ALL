@@ -5,14 +5,30 @@
     <p><span class="story-none">설문 제작부터 배포, 분석까지. 대학생으로서 느낀 문제를 직접 해결하고자 시작된 서베이지의 이야기,</span>
       <br> <span id="story-none-bold">한번 들어보실래요?</span></p>
     <router-link to="/story"><button class="HomeBrandStory-btn">더 알아보기</button></router-link>
+    <button @click="getData()">API TEST</button>
   </div>
   
 </div>
 </template>
 
 <script>
+import axios from 'axios'
 export default {
+  methods: {
+    async getData() {
+      const axios = require('axios')
+      const url = 'http://localhost:8081/interview/get'
+      const params = { nid: 2 }
 
+      try {
+        const result = await axios.get(url)
+        console.log(result)
+      } catch(error) {
+        console.log(error)
+      }
+    }
+
+  }
 }
 </script>
 
