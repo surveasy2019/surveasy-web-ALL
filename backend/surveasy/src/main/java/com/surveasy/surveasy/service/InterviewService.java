@@ -6,6 +6,8 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
 @Service
 @Transactional(readOnly = true)
 @RequiredArgsConstructor
@@ -22,7 +24,13 @@ public class InterviewService {
     }
 
     // 1개 조회
-    public Interview findOne(Long id) {
-        return interviewRepository.findOne(id);
+    public Interview findOne(Long nid) {
+        return interviewRepository.findOne(nid);
+    }
+
+
+    // 전체 조회
+    public List<Interview> findAll() {
+        return interviewRepository.findAll();
     }
 }

@@ -17,8 +17,19 @@
 </template>
 
 <script>
+import axios from 'axios'
 export default {
+  methods: {
+    getData(){
+      const url = 'http://localhost:8081/vue/interview/get'
+      axios.get(url, {params : {
+          id : 1
+        }})
+          .then(result=>
+              console.log(result))
+    }
 
+  }
 }
 </script>
 
