@@ -1,0 +1,9 @@
+*.js linguist-vendored
+*.vue linguist-vendored=false
+*.java linguist-vendored=false
+
+frontend/** linguist-documentation=false
+frontend/** linguist-vendored=false
+
+backend/** linguist-documentation=false
+backend/** linguist-vendored=false
