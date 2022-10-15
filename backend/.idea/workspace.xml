@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="433af8c0-117c-4169-95eb-0f75c47b1873" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/surveasy/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/surveasy/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/surveasy/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/surveasy/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/surveasy/src/test/java/com/surveasy/surveasy/SurveasyApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/surveasy/src/test/java/com/surveasy/surveasy/SurveasyApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +106,8 @@
       <workItem from="1665702149208" duration="46000" />
       <workItem from="1665702450925" duration="625000" />
       <workItem from="1665766929845" duration="2762000" />
-      <workItem from="1665806205368" duration="5830000" />
+      <workItem from="1665806205368" duration="7213000" />
+      <workItem from="1665838978464" duration="209000" />
     </task>
     <servers />
   </component>
