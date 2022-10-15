@@ -2,7 +2,7 @@ const path = require("path");
 
 module.exports = {
     devServer: {
-        proxy : 'http://localhost:8081'
+        proxy : '3.34.72.229'
     },
     indexPath: '../../templates/vue/index.html',
     publicPath: '/vue',
